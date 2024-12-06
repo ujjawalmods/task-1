@@ -1,0 +1,243 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+
+}
+.bg{
+    /* background-color: rgb(28, 28, 28); */
+    /* height: 300px; */
+    /* outline: color(srgb-linear red green blue); */
+
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+    font-size: 1.1rem;
+}
+
+.nav-link{
+    color: white !important; 
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    /* margin-right: 25px; */
+}
+.imgmain{
+   border: 2px solid rgb(204, 255, 0);
+}
+.btn
+{
+    border: 2px solid rgb(221, 255, 0);
+
+}
+.btn:hover{
+    background-color: rgba(254, 254, 24, 0.477);
+    border: 2px solid rgb(221, 255, 0);
+
+}
+.btn i
+{
+    color: white;
+}
+.search-btn{
+    border: 2px solid rgb(255, 0, 0);
+   
+
+}
+.search-btn:focus , .search-btn:active{
+  
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid yellow;
+    background-color: rgb(237, 233, 233);
+}
+.navbar-toggler{
+   background-color: #655e5e;
+   /* color: #a2a226b0; */
+   /* border: 1px solid rgb(200, 255, 0); */
+}
+.navbar-toggler:hover{
+    border: 2px solid blue;
+}
+.navbar-toggler:active{
+    background-color: rgb(221, 255, 85);
+}
+
+/* Hacking Wacking Main PAra And Heading */
+
+.mainp{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.mainheading{
+    /* font-family: 'Righteous', cursive; */
+    font-size: 4rem ;
+    font-weight: 700;
+    color: #ff0000;
+    /* filter:drop-shadow(0px 0px 300px rgb(13, 0, 255)); */
+   }
+
+
+#sub-btn1{
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Work On Cards Horizontal Or Vertical */
+
+.card{
+    transition: all 1s ease-in 0s !important;
+
+    /* flex-direction: row; */
+}
+.card:hover{
+    box-shadow: 2px 2px 10px green;
+    transform: scale(1.01);
+    
+}
+
+/* Work On Cards Horizontal Or Vertical */
+
+.card-news
+{
+    max-width: 40em;
+    flex-direction: row;
+    margin: auto;
+}
+.card-news img{
+    max-width: 40%;
+}
+.la-sun , .la-moon{
+    font-size: 2rem;
+}
+
+.card{
+    color: white !important;
+}
+/* Now Latest AI Section Starts  */
+h5{
+    color: rgb(255, 0, 0) !important;
+    font-weight: bold;
+}
+.footer
+{
+    display: flex;
+
+}
+
+.la-instagram{
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 1s ease-in 0s !important;
+
+}
+.la-instagram:hover{
+    transform: scale(1.4);
+}
+.la-github{
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 1s ease-in 0s !important;
+
+}
+.la-github:hover{
+    transform: scale(1.4);
+}
+.la-youtube{
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 1s ease-in 0s !important;
+
+}
+.la-youtube:hover{
+    transform: scale(1.4);
+}
+
+.la-linkedin-in{
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 1s ease-in 0s !important;
+
+}
+.la-linkedin-in:hover{
+    transform: scale(1.4);
+}
+.head-footer{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* Scroll Bar Color  */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color:#d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 189, 226);
+    border-radius: 2px;
+}
+.hover-line:hover,.hover-line-active{
+    color: yellow !important;
+    font-weight: bold !important;
+}
+.hover-line{
+    position: relative;  
+}
+.hover-line::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 80%;
+    transition: all 0.6s;
+}
+.hover-line:hover::after{
+    width: 95%;
+}
+
+
+Creating Hover Effect On HAcking Tips button
+.hacking-tips-btn{
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+
+
+}
+.hacking-tips-btn::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transition: all 0.4s;
+}
+.hacking-tips-btn:hover::after{
+    width: 100%;
+}
+
+  .sideimage{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    animation: mymove 3s linear 0s 10 alternate none;
+  }
+  @keyframes mymove {
+    0%{
+        left: 0px;
+    }
+    10%{
+        left: 10px;
+    }
+  }
